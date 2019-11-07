@@ -23,7 +23,7 @@ export class apiservice
 
         //using fetch
         const fetch = require("node-fetch");
-      let myJson=fetch("https://api.github.com/users/iamsuryasikharej",{ method: 'GET',headers:{
+      let myJson=fetch("https://api.github.com/users/"+userName,{ method: 'GET',headers:{
             'User-Agent':'request',
 
         },
